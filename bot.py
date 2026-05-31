@@ -70,7 +70,7 @@ import uvicorn
 # =============================================================================
 
 # Токен бота от @BotFather
-TELEGRAM_TOKEN = os.environ.get("OWNER_ID", "")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")  # ← исправлено!
 
 # Telegram ID владельца (получить у @userinfobot)
 OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
