@@ -70,10 +70,10 @@ import uvicorn
 # =============================================================================
 
 # Токен бота от @BotFather
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+TELEGRAM_TOKEN = os.environ.get("8929296662:AAE6cQq-UsMPEMuZjcIxG2ouGWMYpchZyqk", "")
 
 # Telegram ID владельца (получить у @userinfobot)
-OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+OWNER_ID = int(os.environ.get("7402154704", "0"))
 
 # Хост для вебхука — должен быть HTTPS URL твоего Render-сервиса
 # Пример: https://my-minecraft-bot.onrender.com
